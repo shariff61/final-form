@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Form</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+            padding: 15px 20px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body ">
+    <form style=" background-color: green; action="">
+    <h1>My practice Form</h1>
+    <fieldset>
+        <legend>Name of the user</legend>
+        First name
+        <input type="text">
+        Middle name
+        <input type="text">
+        Last name
+        <input type="text">
+    </fieldset>
+    <fieldset>
+        <legend>Surce destination and train Selection</legend>
+        <label for="Source station">Source Station</label>
+        <select name="source station" id="Source station">
+            <option value="Hpwrah">howrah</option>
+            <option value="dhaka">dhaka</option>
+            <option value="comilla">comilla</option>
+            <option value="chittagong">chittagong</option>
+            <option value="sylhet">sylhet</option>
+        </select>
+        <label for="destination station">Destination Station</label>
+        <select name="destination station" id="destination station">
+            <option value="Sialkot">Sialkot</option>
+            <option value="chittagong railway">chittagong railway</option>
+            <option value="dhaka road">dhaka road</option>
+            <option value="comilla railway">comilla railway</option>
+            <option value="sylhet railway"></option>
+        </select>
+        <label for="train selection">Train Selection</label>
+        <select name="ttrain selection" id="train selection">
+            <option value="hawrah-sialkot shatabdi express">hawrah-sialkot shatabdi express</option>
+            <option value="dhaka-chittagong london express">dhaka-chittagong london express</option>
+            <option value="dhaka-comilla tisha express">dhaka-comilla tisha express</option>
+            <option value="dhaka-sylhet haniff express">dhaka-sylhet hanif express</option>
+            <option value="chitttagong-comilla shamoli express">chitttagong-comilla shamoli express</option>
+        </select>
+
+
+
+    </fieldset>
+    <fieldset>
+        <legend>Pessengers Details</legend>
+        <label for="adults">Adults</label>
+        <select name="adults" id="adults">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+        </select>
+        <label for="child">Child</label>
+        <select name="child" id="child">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+        </select>
+        <p>Choose Your preffered class of travel</p>
+        <label for="Ac tier cum Ac first">Ac tier cum Ac first</label>
+        <input type="radio" name="travel" id="Ac tier cum Ac first">
+
+        <label for="Ac 3 tier">Ac 3 tier</label>
+        <input type="radio" name="travel" id="Ac 3 tier">
+        <label for="sleeper">Sleeper</label>
+        <input type="radio" name="travel" id="sleeper">
+        <label for="chair car">Chair car</label>
+        <input type="radio" name="travel" id="chair car">
+
+    </fieldset>
+    <fieldset>
+        <legend>Food Option</legend>
+        <label for="vegeterian">Vegeterian</label>
+        <input type="checkbox" name="" id="vegeterian">
+        <label for="non vegeterian">Non Vegeterian</label>
+        <input type="checkbox" name="" id="non vegeterian">
+    </fieldset>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+    </form>
+</body>
+
+</html>
