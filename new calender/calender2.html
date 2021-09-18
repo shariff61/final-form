@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender</title>
+    <style>
+        .week ul,
+        .days ul {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 15px;
+
+
+        }
+
+        .week li,
+        .days li {
+            list-style: none;
+            font-size: 45px;
+            padding: 20px;
+            background-color: grey;
+        }
+
+        .week li {
+            background-color: blueviolet;
+            font-weight: 700;
+
+        }
+
+        hr {
+            color: black;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 35px;
+            background-color: indianred;
+            color: wheat;
+
+        }
+
+        .other {
+
+            background-color: white !important;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Month calender</h1>
+    <div class="week">
+        <ul>
+            <li>Mon</li>
+            <li>tue</li>
+            <li>wed</li>
+            <li>thu</li>
+            <li>fri</li>
+            <li>sat</li>
+            <li>sun</li>
+            <hr>
+
+        </ul>
+
+    </div>
+    <div class="days">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><span style="background-color: greenyellow;">10</span></li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+            <li class="other">32</li>
+            <li class="other">33</li>
+        </ul>
+    </div>
+</body>
+
+</html>
